@@ -1,0 +1,48 @@
+body{
+    background: #293D7E
+  }
+    
+    div{
+      background-color: #6E91CA;
+  }
+  
+  .tudo{
+      background-color: #293D7E;
+      display:block;
+      position: absolute;
+      max-width: 400px;
+      max-height: 600px;
+      margin: 200px;
+  }
+  
+  .cima{
+      display: block;
+      margin: auto auto auto 0;
+      width: 180px;
+      height: 115px;
+      border-radius: 100% 100% 0 0;
+      display: flex;
+  }
+  
+  .baixo{
+      width: 140px;
+      height: 120px;
+      border-radius: 100% 100% 0 0;
+      background-color: #293D7E;
+      margin: 20px auto;
+  }
+  
+  .esquerda{
+      width: 70px;
+      height: 80px;
+      display: inline-block;
+      border-radius: 0 40% 40% 40%;
+  }
+  
+  .direita{
+      width: 70px;
+      height: 80px;
+      display: inline-block;
+      margin-left: 36px;
+      border-radius: 40% 0 40% 40%;
+  }
