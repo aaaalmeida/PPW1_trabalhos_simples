@@ -1,0 +1,67 @@
+body{
+    background-color: #14313E;
+}
+
+.espada {
+    width: 1000px;
+    height: 1000px;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+.corpo {
+    background-color: rgb(105, 116, 113);
+    width: 100px;
+    height: 500px;
+    justify-content: center;
+    position: absolute;
+    border: black solid 2px;
+}
+
+.centro {
+    background-color: rgb(37, 39, 38);
+    height: 400px;
+    width: 4px;
+    margin: 0 auto;
+}
+
+.cabeca {
+    background-color: rgb(105, 116, 113);
+    /* background-color: aqua; */
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+    width: 71px;
+    height: 71px;
+    transform: rotate(45.5deg);
+    float: auto;
+    margin-top: -37px;
+    margin-left: 14px;
+}
+
+.beirada {
+    background-color: rgb(153, 0, 0);
+    border: black solid 2px;
+    width: 400px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: -150px;
+    border-radius: 45% 45% 30px 30px;
+}
+
+.cabo {
+    width: 50px;
+    height: 110px;
+    margin: auto;
+    background-color: rgb(204, 102, 0);
+    border-radius: 0 0 10px 10px;
+    border: black solid 2px;
+}
+
+.bolinha {
+    border: black solid 2px;
+    margin-top: -25px;
+    margin-left: 7px;
+    width: 80px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #4d1300;
+}
